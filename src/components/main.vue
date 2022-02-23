@@ -42,6 +42,36 @@
           class="second_m_img1_1"
         > 사전 • 실시간 투표
       </div>
+
+      <div class="second_m_img2">
+        <v-img
+          src="../assets/6.the_show.png"
+          class="second_m_img2_1"
+        />
+        <v-img
+          src="../assets/4.the_trotshow.png"
+          class="second_m_img2_2"
+        />
+      </div>
+      <div class="second_m_text1">
+        <p>엎치락뒤치락! 열띤 사전투표와</p>
+        <p class="second_m_text1_2">
+          생방송에 참여하는 실시간 투표까지 스타플래닛에서
+        </p>
+      </div>
+      <div class="second_m_text2">
+        <span class="second_m_text2_1">더 쇼, 더 트롯쇼</span>
+        <span class="second_m_text2_2">사전/실시간 투표 진행!</span>
+      </div>
+      <div class="second_m_img3">
+        <img
+          src="../assets/11.phone1.png"
+          class="second_m_img3_1"
+        >
+      </div>
+    </div>
+    <div class="third_m">
+      <div />
     </div>
   </div>
 </template>
