@@ -36,8 +36,11 @@
       </div>
     </div>
     <div class="second_m">
-      <div class="second_m_phoneimg">
-        img.
+      <div class="second_m_img1">
+        <img
+          src="../assets/5.sbs_mtv.png"
+          class="second_m_img1_1"
+        > 사전 • 실시간 투표
       </div>
     </div>
   </div>
