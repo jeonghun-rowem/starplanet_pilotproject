@@ -157,13 +157,18 @@
 }
 
 .second_m_img3{
-    justify-self: right;
+    margin: 0 auto;
+    position: relative;
+    bottom: 242px;
+    width: 500px;
+}
+
+.second_m_img3_1{
+    justify-content: right;
     align-items: center;
     display: flex;
     position: relative;
-    bottom: 242px;
-    left: 900px;
-    width: 500px;
+    left: 210px;
 }
 
 .third_m{
