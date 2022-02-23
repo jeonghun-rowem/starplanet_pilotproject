@@ -176,3 +176,66 @@
     height: 870px;
     background-color: #362B4E;
 }
+
+.third_m_starpass_logo{
+    width: 110px;
+    height: 110px;
+    top: 150px;
+    margin: 0 auto;   
+}
+
+.third_m_star_plannet{
+    width: 370px;
+    /* height: 100px; */
+    margin: 0 auto;  
+    top: 155px; 
+}
+
+.third_m_text1{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 225px;
+}
+
+.third_m_text1_1{
+    font-size: 66px;
+    color: white;
+    font-weight: bolder;
+}
+
+.third_m_text1_2{
+    font-size: 66px; 
+    color: white;
+    margin-right: 10px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 20px;
+}
+
+.third_m_text1_3{
+    font-size: 66px; 
+    color: #6BF3FF;
+    margin-right: 10px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 20px;
+}
+
+.third_m_text1_4{
+    font-size: 66px; 
+    color: white;
+    margin-right: 10px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 20px;
+}
+
+.third_m_text1_5{
+    font-size: 66px; 
+    color: #FF13A1;
+    margin-right: 10px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 20px;
+}

@@ -71,7 +71,26 @@
       </div>
     </div>
     <div class="third_m">
-      <div />
+      <v-img
+        class="third_m_starpass_logo"
+        src="../assets/1.starpass_logo.png"
+      />
+      
+      <v-img
+        class="third_m_star_plannet"
+        src="../assets/2.star_planet.png"
+      />
+      <div class="third_m_text1">
+        <p class="third_m_text1_1">
+          K-pop, Trot with STAR PLANET
+        </p>
+        <span class="third_m_text1_2">
+          Available on
+        </span>
+        <span class="third_m_text1_3">Android</span>
+        <span class="third_m_text1_4">and</span>
+        <span class="third_m_text1_5">iOS</span>
+      </div>
     </div>
   </div>
 </template>
