@@ -14,21 +14,21 @@
     left: 10px;
   }
 
-  .header_memu{
-  position: relative;
+  .header_menu{
   display: flex;
-  left: 1380px;
-  width: 370px;
-  height: 29px;
-  bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 12px;
+  left: 500px;
   }
 
   .header_menu_news{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-right: 100px;
     font-size: 18px;    
   }
   .header_menu_center{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 18px;     
   }

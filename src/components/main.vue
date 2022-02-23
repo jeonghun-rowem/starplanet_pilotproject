@@ -24,8 +24,22 @@
       <div class="first_m_text2">
         <p>안드로이드,iOS 모두 지원</p>
       </div>
+      <div class="app_button">
+        <v-img
+          class="app_button_gol"
+          src="../assets/16.google_btn.png"
+        />
+        <v-img
+          class="app_button_apl"
+          src="../assets/17.appstore_btn.png"
+        />
+      </div>
     </div>
-    <div class="second_m" />
+    <div class="second_m">
+      <div class="second_m_phoneimg">
+        img.
+      </div>
+    </div>
   </div>
 </template>
 
