@@ -71,10 +71,12 @@
  .app_button_gol{
      width: 200px;
      margin-right: 30px;
+     cursor: pointer;
  }
 
  .app_button_apl{
     width: 200px;
+    cursor: pointer;
  }
 
  /* 첫번째 메인화면 단 끝  */
@@ -181,7 +183,9 @@
     height: 870px;
     background-color: #362B4E;
     background-image: url('../assets/18.third-m-bg.png');
-    background-position: 10% -200px;    
+    background-position: 10% -200px;
+    background-repeat : no-repeat;
+        background-size : cover; 
 }
 
 .third_m_starpass_logo{
@@ -240,7 +244,7 @@
 
 .third_m_text1_5{
     font-size: 66px; 
-    color: #FF13A1;
+    color: #ff3c66;
     margin-right: 10px;
     font-weight: bolder;
     position: relative;
