@@ -91,6 +91,16 @@
         <span class="third_m_text1_4">and</span>
         <span class="third_m_text1_5">iOS</span>
       </div>
+      <div class="app_button">
+        <v-img
+          class="app_button_gol"
+          src="../assets/16.google_btn.png"
+        />
+        <v-img
+          class="app_button_apl"
+          src="../assets/17.appstore_btn.png"
+        />
+      </div>
     </div>
   </div>
 </template>
