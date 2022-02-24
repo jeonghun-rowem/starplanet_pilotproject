@@ -9,11 +9,16 @@
 
   .header_logo{
     width: 190px;
-    height: 40px;
-    top: 20px;
+    height: 50px;
+    top: 15px;
     left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
     cursor: pointer;
-    /* border: solid 1px red; */
+    /* background: transparent url("../assets/3.star_planet_logo.png") 0% 0% no-repeat padding-box; */
   }
 
   .header_menu{
@@ -21,8 +26,10 @@
   justify-content: right;
   align-items: center;
   position: relative;
-  bottom: 12px;
-  right: 300px;
+  /* border:  1px solid red; */
+  bottom: 20px;
+  width: 60%;
+  left: 22%;
   }
 
   .header_menu_news{

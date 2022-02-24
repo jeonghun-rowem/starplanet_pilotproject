@@ -1,10 +1,12 @@
 <template>
   <header>
     <div class="header">
-      <v-img
-        class="header_logo"
-        src="../assets/3.star_planet_logo.png"
-      />
+      <div class="header_logo">
+        <v-img
+          class="header_logo_1"
+          src="../assets/3.star_planet_logo.png"
+        />
+      </div>
 
       <div class="header_menu">
         <span class="header_menu_news">
