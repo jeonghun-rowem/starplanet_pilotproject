@@ -160,19 +160,12 @@
 }
 
 .second_m_img3{
-    margin: 0 auto;
-    position: relative;
-    bottom: 242px;
-    width: 500px;
+    position:absolute;
+    right: 0;
+    margin-right: -50px;
+    bottom: 1073px;
 }
 
-.second_m_img3_1{
-    justify-content: right;
-    align-items: center;
-    display: flex;
-    position: relative;
-    left: 210px;
-}
 
  /* 두번째 메인화면 단 끝  */
 
@@ -197,7 +190,6 @@
 
 .third_m_star_plannet{
     width: 370px;
-    /* height: 100px; */
     margin: 0 auto;  
     top: 155px; 
 }

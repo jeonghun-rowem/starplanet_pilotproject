@@ -3,6 +3,7 @@
     <HeaderBar />
     <MaIn />
     <FooterBar />
+    <ScrollUp />
   </v-app>
 </template>
 
@@ -11,13 +12,14 @@
 
 import HeaderBar from './components/HeaderBar';
 import MaIn from './components/Main';
-import FooterBar from './components/FooterBar.vue';
+import FooterBar from './components/FooterBar';
+import ScrollUp from './components/ScrollUp';
 
 export default {
   name: 'App',
 
   components: {
-    HeaderBar,MaIn,FooterBar,
+    HeaderBar,MaIn,FooterBar,ScrollUp,
  
   },
 
