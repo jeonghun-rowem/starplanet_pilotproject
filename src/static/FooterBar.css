@@ -82,24 +82,26 @@
     position: relative;
     top: 17px;
     right: 105px; */
+    font-weight: 500;
+    font-size: 12px;
   }
 
   .footer_text3_1{
     color: rgb(180, 180, 180);
-    font-weight: 500;
-    font-size: 12px;
+    /* font-weight: 500;
+    font-size: 12px; */
   }
 
   .footer_text3_2{
     color: rgb(255, 91, 91);
-    font-weight: 500;
-    font-size: 12px;
+    /* font-weight: 500;
+    font-size: 12px; */
   }
 
   .footer_text3_3{
     color: rgb(180, 180, 180);
-    font-weight: 500;
-    font-size: 12px;
+    /* font-weight: 500;
+    font-size: 12px; */
   }
 
    /* 세번쨰 텍스트 줄 끝 */
