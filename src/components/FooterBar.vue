@@ -3,7 +3,7 @@
     <div class="footer">
       <v-img
         class="footer_img1"
-        src="../assets/3.star_planet_logo.png"
+        src="@/assets/3.star_planet_logo.png"
       />
       <div class="footer_text1">
         <span class="footer_text1_1">회사소개</span>
@@ -45,5 +45,5 @@ export default {
 </script>
 
 <style>
- @import '../static/FooterBar.css';
+ @import '@/static/FooterBar.css';
 </style>

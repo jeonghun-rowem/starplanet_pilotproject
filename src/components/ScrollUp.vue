@@ -25,4 +25,5 @@ export default {
   cursor: pointer;
   opacity: 60%;
     }
+    
 </style>

@@ -4,7 +4,7 @@
       <div class="header_logo">
         <v-img
           class="header_logo_1"
-          src="../assets/3.star_planet_logo.png"
+          src="@/assets/3.star_planet_logo.png"
         />
       </div>
 
@@ -29,5 +29,5 @@ export default {
 </script>
 
 <style>
-  @import '../static/HeaderBar.css';
+  @import '@/static/HeaderBar.css';
 </style>

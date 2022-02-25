@@ -3,12 +3,12 @@
     <div class="first_m">
       <v-img
         class="first_m_starpass_logo"
-        src="../assets/1.starpass_logo.png"
+        src="@/assets/1.starpass_logo.png"
       />
 
       <v-img
         class="first_m_star_plannet"
-        src="../assets/2.star_planet.png"
+        src="@/assets/2.star_planet.png"
       />
       <div class="first_m_text1">
         <span class="first_m_text1_1">
@@ -27,29 +27,29 @@
       <div class="app_button">
         <v-img
           class="app_button_gol"
-          src="../assets/16.google_btn.png"
+          src="@/assets/16.google_btn.png"
         />
         <v-img
           class="app_button_apl"
-          src="../assets/17.appstore_btn.png"
+          src="@/assets/17.appstore_btn.png"
         />
       </div>
     </div>
     <div class="second_m">
       <div class="second_m_img1">
         <img
-          src="../assets/5.sbs_mtv.png"
+          src="@/assets/5.sbs_mtv.png"
           class="second_m_img1_1"
         > 사전 • 실시간 투표
       </div>
 
       <div class="second_m_img2">
         <v-img
-          src="../assets/6.the_show.png"
+          src="@/assets/6.the_show.png"
           class="second_m_img2_1"
         />
         <v-img
-          src="../assets/4.the_trotshow.png"
+          src="@/assets/4.the_trotshow.png"
           class="second_m_img2_2"
         />
       </div>
@@ -65,7 +65,7 @@
       </div>
       <div class="second_m_img3">
         <img
-          src="../assets/11.phone1.png"
+          src="@/assets/11.phone1.png"
           class="second_m_img3_1"
         >
       </div>
@@ -73,12 +73,12 @@
     <div class="third_m">
       <v-img
         class="third_m_starpass_logo"
-        src="../assets/1.starpass_logo.png"
+        src="@/assets/1.starpass_logo.png"
       />
       
       <v-img
         class="third_m_star_plannet"
-        src="../assets/2.star_planet.png"
+        src="@/assets/2.star_planet.png"
       />
       <div class="third_m_text1">
         <p class="third_m_text1_1">
@@ -94,11 +94,11 @@
       <div class="app_button">
         <v-img
           class="app_button_gol"
-          src="../assets/16.google_btn.png"
+          src="@/assets/16.google_btn.png"
         />
         <v-img
           class="app_button_apl"
-          src="../assets/17.appstore_btn.png"
+          src="@/assets/17.appstore_btn.png"
         />
       </div>
     </div>
@@ -112,5 +112,5 @@ export default {
 </script>
 
 <style>
-@import '../static/Main.css';
+@import '@/static/Main.css';
 </style>
