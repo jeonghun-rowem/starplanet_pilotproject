@@ -9,13 +9,13 @@
       </div>
 
       <div class="header_menu">
-        <span class="header_menu_news">
+        <a class="header_menu--item">
           NEWS
-        </span>
+        </a>
 
-        <span class="header_menu_center">
+        <a class="header_menu--item">
           고객센터
-        </span>
+        </a>
       </div>
     </div>
   </header>

@@ -4,34 +4,32 @@
       <v-img
         class="first_m_starpass_logo"
         src="@/assets/1.starpass_logo.png"
+        height="230px"
+        contain
       />
 
       <v-img
         class="first_m_star_plannet"
         src="@/assets/2.star_planet.png"
+        height="100px"
+        contain
       />
       <div class="first_m_text1">
-        <span class="first_m_text1_1">
-          K-Pop, 트로트 팬덤을 위한 
-        </span>
-        <span class="first_m_text1_2">
-          글로벌 플랫폼
-        </span>
-        <span class="first_m_text1_3">
-          !
-        </span>
+        <p>K-Pop, 트로트 팬덤을 위한 <span class="first_m_text1_2">글로벌 플랫폼</span>!</p>
       </div>
       <div class="first_m_text2">
         <p>안드로이드,iOS 모두 지원</p>
       </div>
       <div class="app_button">
         <v-img
-          class="app_button_gol"
           src="@/assets/16.google_btn.png"
+          max-width="200px"
+          contain
         />
         <v-img
-          class="app_button_apl"
           src="@/assets/17.appstore_btn.png"
+          max-width="200px"
+          contain
         />
       </div>
     </div>
