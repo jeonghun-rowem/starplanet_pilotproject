@@ -1,54 +1,56 @@
 <template>
-  <v-card
-    class="mx-auto overflow-hidden"
-    height="400"
-  >
+  <v-card class="overflow-hidden">
     <v-app-bar
-      color="deep-purple"
+      absolute
+      color="teal lighten-3"
       dark
+      hide-on-scroll
+      scroll-target="#scrolling-techniques-4"
     >
-      <v-app-bar-nav-icon @click="drawer = true" />
+      <v-app-bar-nav-icon />
 
       <v-toolbar-title>Title</v-toolbar-title>
+
+      <v-spacer />
+
+      <v-btn icon>
+        <v-icon>mdi-magnify</v-icon>
+      </v-btn>
+
+      <v-btn icon>
+        <v-icon>mdi-heart</v-icon>
+      </v-btn>
+
+      <v-btn icon>
+        <v-icon>mdi-dots-vertical</v-icon>
+      </v-btn>
     </v-app-bar>
-
-    <v-navigation-drawer
-      v-model="drawer"
-      absolute
-      temporary
+    <v-sheet
+      id="scrolling-techniques-4"
+      class="overflow-y-auto"
     >
-      <v-list
-        nav
-        dense
-      >
-        <v-list-item-group
-          v-model="group"
-          active-class="deep-purple--text text--accent-4"
-        >
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>Home</v-list-item-title>
-          </v-list-item>
-
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>Account</v-list-item-title>
-          </v-list-item>
-        </v-list-item-group>
-      </v-list>
-    </v-navigation-drawer>
+      <MaIn />
+      <!-- <v-container style="height: 1000px;" /> -->
+    </v-sheet>
   </v-card>
 </template>
 
 <script>
+
+import MaIn from '@/views/Main.vue'
+
 export default {
-    name : "HeaderBarTest"
+
+
+    name : "HeaderBarTest",
+
+  components:{
+    MaIn,
+  }
 
 }
+
+
 </script>
 
 <style>

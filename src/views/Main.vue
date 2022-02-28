@@ -1,6 +1,7 @@
 <template>
   <div>
-    <HeaderBar />
+    <!-- <HeaderBar /> -->
+    <!-- <HeaderBarTest /> -->
 
     <div class="first_m">
       <v-img
@@ -134,18 +135,18 @@
   </div>
 </template>
 
-
 <script>
 
-import HeaderBar from '@/components/HeaderBar';
+// import HeaderBar from '@/components/HeaderBar';
 import FooterBar from '@/components/FooterBar';
 import ScrollUp from '@/components/ScrollUp';
+// import HeaderBarTest from '@/components/HeaderBarTest'
 
 export default {
     name : 'MaIn',
 
      components: {
-    HeaderBar,FooterBar,ScrollUp,
+    FooterBar,ScrollUp,
  
   },
 }

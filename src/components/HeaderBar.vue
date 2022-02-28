@@ -1,27 +1,34 @@
 <template>
-  <header>
-    <div class="header">
-      <div class="header_logo">
-        <v-img
-          class="header_logo_1"
-          src="@/assets/3.star_planet_logo.png"
-        />
-      </div>
+  <v-app-bar
+    app
+    color="teal lighten-3"
+    dark
+    hide-on-scroll
+    scroll-threshold="50"
+  >
+    <v-app-bar-nav-icon />
 
-      <div class="header_menu">
-        <a class="header_menu--item">
-          NEWS
-        </a>
+    <v-toolbar-title>Title</v-toolbar-title>
 
-        <a class="header_menu--item">
-          고객센터
-        </a>
-      </div>
-    </div>
-  </header>
+    <v-spacer />
+
+    <v-btn icon>
+      <v-icon>mdi-magnify</v-icon>
+    </v-btn>
+
+    <v-btn icon>
+      <v-icon>mdi-heart</v-icon>
+    </v-btn>
+
+    <v-btn icon>
+      <v-icon>mdi-dots-vertical</v-icon>
+    </v-btn>
+  </v-app-bar>
 </template>
 
 <script>
+
+
 export default {
       name: 'HeaderBar',
 
