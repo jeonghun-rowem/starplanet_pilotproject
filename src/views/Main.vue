@@ -1,5 +1,7 @@
 <template>
   <div>
+    <HeaderBar />
+
     <div class="first_m">
       <v-img
         class="first_m_starpass_logo"
@@ -106,12 +108,26 @@
         />
       </div>
     </div>
+
+    <FooterBar />
+    <ScrollUp />
   </div>
 </template>
 
+
 <script>
+
+import HeaderBar from '@/components/HeaderBar';
+import FooterBar from '@/components/FooterBar';
+import ScrollUp from '@/components/ScrollUp';
+
 export default {
-    name : 'MaIn'
+    name : 'MaIn',
+
+     components: {
+    HeaderBar,FooterBar,ScrollUp,
+ 
+  },
 }
 </script>
 

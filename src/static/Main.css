@@ -159,9 +159,16 @@
 .second_m_img3{
     position:absolute;
     right: 0;
+    width: 55vw;
+    max-width: 1100px;
     margin-right: -50px;
     top: 74px;
 }
+
+/* .second_m_img3_1 {
+    width: 55vw;
+    max-width: 1000px;
+} */
 
 
  /* 두번째 메인화면 단 끝  */
