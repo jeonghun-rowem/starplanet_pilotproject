@@ -23,16 +23,26 @@
         <p>안드로이드,iOS 모두 지원</p>
       </div>
       <div class="app_button">
-        <v-img
-          src="@/assets/16.google_btn.png"
-          max-width="250px"
-          contain
-        />
-        <v-img
-          src="@/assets/17.appstore_btn.png"
-          max-width="250px"
-          contain
-        />
+        <a
+          href="https://play.google.com/store/apps/details?id=inc.rowem.passicon&hl=ko"
+          target="_blank" 
+        >
+          <v-img
+            src="@/assets/16.google_btn.png"
+            max-width="250px"
+            contain
+          />
+        </a>
+        <a
+          href="https://apps.apple.com/kr/app/id1377584935"
+          target="_blank"
+        >
+          <v-img
+            src="@/assets/17.appstore_btn.png"
+            max-width="250px"
+            contain
+          />
+        </a>
       </div>
     </div>
     <div class="second_m">
@@ -96,16 +106,26 @@
         </p>
       </div>
       <div class="app_button app_button_2">
-        <v-img  
-          src="@/assets/16.google_btn.png"
-          max-width="250px"
-          contain
-        />
-        <v-img
-          src="@/assets/17.appstore_btn.png"
-          max-width="250px"
-          contain
-        />
+        <a
+          href="https://play.google.com/store/apps/details?id=inc.rowem.passicon&hl=ko"
+          target="_blank"
+        >
+          <v-img
+            src="@/assets/16.google_btn.png"
+            max-width="250px"
+            contain
+          />
+        </a>
+        <a
+          href="https://apps.apple.com/kr/app/id1377584935"
+          target="_blank"
+        >
+          <v-img
+            src="@/assets/17.appstore_btn.png"
+            max-width="250px"
+            contain
+          />
+        </a>
       </div>
     </div>
 
