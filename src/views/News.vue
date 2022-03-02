@@ -1,26 +1,20 @@
 <template>
   <div>
-    <!-- news페이지 -->
-    <HeaderBarTest />
+    news페이지
+    <HeaderBar />
   </div>
 </template>
 
 <script>
-
-import HeaderBarTest from '@/components/HeaderBarTest.vue'
+import HeaderBar from "@/components/HeaderBar.vue";
 
 export default {
-    name : 'NeWs',
+  name: "NeWs",
 
-    components:{
-        HeaderBarTest,
-    }
-
-
-}
-
+  components: {
+    HeaderBar,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

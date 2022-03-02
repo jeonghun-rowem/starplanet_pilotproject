@@ -1,4 +1,4 @@
-.header{
+.header {
   width: 100%;
   max-height: 80px;
   background-color: rgba(0, 0, 0, 0.589);
@@ -13,12 +13,7 @@
   color: #ffffff !important;
 }
 
-.header_logo{
-  cursor: pointer;
-  /* background: transparent url("../assets/3.star_planet_logo.png") 0% 0% no-repeat padding-box; */
-}
-
-.header_menu{
+.header_menu {
   /* display: flex;
   justify-content: right;
   align-items: center; */
@@ -33,3 +28,26 @@
   font-size: 18px;
 }
 
+.Header_bar {
+  opacity: 0.9;
+  position: relative;
+  font-size: 18px;
+}
+
+.Header_bar a {
+  color: #ffffff !important;
+  text-decoration: none; /* 링크의 밑줄 제거 */
+}
+
+.Header_logo {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.Header_bar_text {
+  margin-right: 250px;
+}
+
+.Header_bar_text2 {
+  margin-left: 100px;
+}

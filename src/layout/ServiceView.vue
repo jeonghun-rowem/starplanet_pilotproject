@@ -1,20 +1,22 @@
 <template>
   <div>
-    Scrvice_faq페이지
     <HeaderBar />
+    <v-main id="appMain">
+      <router-view />
+    </v-main>
   </div>
 </template>
-
 <script>
 import HeaderBar from "@/components/HeaderBar.vue";
 
 export default {
-  name: "ServiceFaq",
-
+  name: "ServiceView",
   components: {
     HeaderBar,
   },
+
+  data: () => ({
+    //
+  }),
 };
 </script>
-
-<style></style>

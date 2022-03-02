@@ -1,30 +1,25 @@
 <template>
-  <div
-    class="scrollup"
-    @click="scrollup()"
-  />
+  <div class="scrollup" @click="scrollup()" />
 </template>
 
 <script>
 export default {
-    name : 'ScrollUp',
+  name: "ScrollUp",
 
-    methods :{
-      // 스크롤 위치 최상단으로 보내기 behavior: "smooth"를 사용한 부드러운 이동
-      scrollup(){
-        window.scrollTo({top:0, left:0, behavior: "smooth"})  
-      },
-
-    }
-}
+  methods: {
+    // 스크롤 위치 최상단으로 보내기 behavior: "smooth"를 사용한 부드러운 이동
+    scrollup() {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    },
+  },
+};
 </script>
 
 <style>
-
-.scrollup{
+.scrollup {
   background-color: black;
-  width:60px;
-  height:60px;
+  width: 60px;
+  height: 60px;
   border-radius: 50px;
   bottom: 20px;
   position: fixed;
@@ -35,6 +30,5 @@ export default {
   z-index: 999;
   cursor: pointer;
   opacity: 60%;
-    }
-    
+}
 </style>

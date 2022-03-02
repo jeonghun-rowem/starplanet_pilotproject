@@ -1,40 +1,35 @@
 <template>
   <v-app-bar
-    app
-    color="teal lighten-3"
     dark
+    app
     hide-on-scroll
-    scroll-threshold="50"
+    scroll-threshold="200"
+    height="80"
+    class="Header_bar"
   >
-    <v-app-bar-nav-icon />
-
-    <v-toolbar-title>Title</v-toolbar-title>
+    <router-link to="/" class="Header_logo">
+      <img src="@/assets/3.star_planet_logo.png" />
+    </router-link>
 
     <v-spacer />
 
-    <v-btn icon>
-      <v-icon>mdi-magnify</v-icon>
-    </v-btn>
+    <div class="Header_bar_text">
+      <router-link to="/news" class="Header_bar_text1">NEWS</router-link>
+      <router-link to="/service/cs" class="Header_bar_text2"
+        >고객센터</router-link
+      >
+    </div>
 
-    <v-btn icon>
-      <v-icon>mdi-heart</v-icon>
-    </v-btn>
-
-    <v-btn icon>
-      <v-icon>mdi-dots-vertical</v-icon>
-    </v-btn>
+    <v-app-bar-nav-icon class="Header_icon" />
   </v-app-bar>
 </template>
 
 <script>
-
-
 export default {
-      name: 'HeaderBar',
-
-}
+  name: "HeaderBar",
+};
 </script>
 
 <style>
-  @import '@/static/HeaderBar.css';
+@import "@/static/HeaderBar.css";
 </style>

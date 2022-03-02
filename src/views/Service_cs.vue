@@ -1,15 +1,20 @@
 <template>
   <div>
-    Scrvice_cs페이지
+    serviceCS페이지
+    <HeaderBar />
   </div>
 </template>
 
 <script>
+import HeaderBar from "@/components/HeaderBar.vue";
+
 export default {
-    name : 'ServiceCs',
-}
+  name: "ServiceCs",
+
+  components: {
+    HeaderBar,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
