@@ -30,13 +30,12 @@
 
 .Header_bar {
   opacity: 0.9;
-  position: relative;
   font-size: 18px;
 }
 
 .Header_bar a {
   color: #ffffff !important;
-  text-decoration: none; /* 링크의 밑줄 제거 */
+  text-decoration: none; /* 링크의 밑줄을  제거 */
 }
 
 .Header_logo {

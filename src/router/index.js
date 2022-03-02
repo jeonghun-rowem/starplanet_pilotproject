@@ -15,17 +15,16 @@ const route = [
     path: "",
     component: HeaderView,
     children: [
-      { path: "", component: MaIn },
+      { path: "", name: "Main", component: MaIn },
       { path: "news", component: NeWs },
-    ],
-  },
-
-  {
-    path: "/service",
-    component: ServiceView,
-    children: [
-      { path: "cs", component: ServiceCs },
-      { path: "faq", component: ServiceFaq },
+      {
+        path: "/service",
+        component: ServiceView,
+        children: [
+          { path: "cs", name: "ServiceCs", component: ServiceCs },
+          { path: "faq", component: ServiceFaq },
+        ],
+      },
     ],
   },
 ];

@@ -45,7 +45,12 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ]
+    }
   },
   "browserslist": [
     "> 1%",

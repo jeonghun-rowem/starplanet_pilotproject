@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderBar />
-    <v-main id="appMain">
+    <v-main id="appMain" :class="{ 'pt-0': isMainPage }">
       <router-view />
     </v-main>
   </div>
@@ -18,5 +18,11 @@ export default {
   data: () => ({
     //
   }),
+
+  computed: {
+    isMainPage() {
+      return this.$route.name === "Main";
+    },
+  },
 };
 </script>

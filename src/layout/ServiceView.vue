@@ -1,19 +1,13 @@
 <template>
   <div>
-    <HeaderBar />
-    <v-main id="appMain">
-      <router-view />
-    </v-main>
+    <router-link :to="{ name: 'ServiceCs' }">CS</router-link>
+    <router-link to="faq">FAQ</router-link>
+    <router-view />
   </div>
 </template>
 <script>
-import HeaderBar from "@/components/HeaderBar.vue";
-
 export default {
   name: "ServiceView",
-  components: {
-    HeaderBar,
-  },
 
   data: () => ({
     //

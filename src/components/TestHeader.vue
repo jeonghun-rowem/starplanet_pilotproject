@@ -1,29 +1,9 @@
 <template>
   <div>
-    <v-app-bar
-      dark
-      app
-      hide-on-scroll
-      scroll-threshold="150"
-      height="80"
-      dense
-      class="Header_bar"
-    >
-      <router-link to="/" class="Header_logo">
-        <img src="@/assets/3.star_planet_logo.png" />
-      </router-link>
-
-      <v-spacer />
-
-      <div class="Header_bar_text">
-        <router-link to="/news" class="Header_bar_text1">NEWS</router-link>
-        <router-link to="/service/cs" class="Header_bar_text2"
-          >고객센터</router-link
-        >
-      </div>
-
-      <v-app-bar-nav-icon class="Header_icon" @click="drawer = true" />
+    <v-app-bar color="deep-purple" dark>
+      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
     </v-app-bar>
+
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
         <v-list-item-group
@@ -51,8 +31,7 @@
 
 <script>
 export default {
-  name: "HeaderBar",
-
+  name: "TestHeader",
   data: () => ({
     drawer: false,
     group: null,
@@ -60,6 +39,4 @@ export default {
 };
 </script>
 
-<style>
-@import "@/static/HeaderBar.css";
-</style>
+<style></style>

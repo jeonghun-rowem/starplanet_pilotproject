@@ -1,18 +1,18 @@
 <template>
   <div>
     Scrvice_faq페이지
-    <HeaderBar />
+    <!-- <HeaderBar /> -->
   </div>
 </template>
 
 <script>
-import HeaderBar from "@/components/HeaderBar.vue";
+// import HeaderBar from "@/components/HeaderBar.vue";
 
 export default {
   name: "ServiceFaq",
 
   components: {
-    HeaderBar,
+    // HeaderBar,
   },
 };
 </script>
