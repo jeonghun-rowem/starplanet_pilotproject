@@ -19,5 +19,5 @@ export default {
 </script>
 
 <style>
-@import "@/static/News_Service.css";
+@import "@/static/News_Service.scss";
 </style>

@@ -26,7 +26,7 @@
 
       <v-app-bar-nav-icon class="Header_icon" @click="drawer = true" />
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" absolute temporary width="500">
+    <v-navigation-drawer v-model="drawer" absolute right temporary width="500">
       <v-list nav dense>
         <v-list-item-group
           v-model="group"
@@ -87,5 +87,5 @@ export default {
 </script>
 
 <style>
-@import "@/static/HeaderBar.css";
+@import "@/static/HeaderBar.scss";
 </style>

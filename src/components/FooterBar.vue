@@ -48,5 +48,5 @@ export default {
 </script>
 
 <style>
-@import "@/static/FooterBar.css";
+@import "@/static/FooterBar.scss";
 </style>

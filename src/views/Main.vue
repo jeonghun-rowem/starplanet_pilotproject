@@ -112,5 +112,5 @@ export default {
 </script>
 
 <style>
-@import "@/static/Main.css";
+@import "@/static/Main.scss";
 </style>

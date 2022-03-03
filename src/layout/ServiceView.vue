@@ -11,12 +11,13 @@
     </div>
 
     <div class="service_CsFaq_btn">
-      <div class="service_Cs_btn CsFaq_btn">
-        <router-link :to="{ name: 'ServiceCs' }">1:1문의</router-link>
-      </div>
-      <div class="service_Faq_btn CsFaq_btn">
-        <router-link :to="{ name: 'ServiceFaq' }">FAQ</router-link>
-      </div>
+      <router-link :to="{ name: 'ServiceCs' }" class="CsFaq_btn"
+        >1:1문의</router-link
+      >
+
+      <router-link :to="{ name: 'ServiceFaq' }" class="CsFaq_btn"
+        >FAQ</router-link
+      >
     </div>
 
     <router-view />
@@ -32,11 +33,12 @@ export default {
 };
 </script>
 
-<style>
-@import "@/static/News_Service.css";
-@import "@/static/Service.css";
+// 지역변수로 설정
+<style lang="scss" scoped>
+@import "@/static/News_Service.scss";
+@import "@/static/Service.scss";
 
-.router-link-exact-active {
+.service_CsFaq_btn > .router-link-exact-active {
   background-color: rgb(255, 70, 131);
 }
 </style>
