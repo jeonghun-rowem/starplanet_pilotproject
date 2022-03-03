@@ -16,13 +16,13 @@ const route = [
     component: HeaderView,
     children: [
       { path: "", name: "Main", component: MaIn },
-      { path: "news", component: NeWs },
+      { path: "news", name: "News", component: NeWs },
       {
         path: "/service",
         component: ServiceView,
         children: [
           { path: "cs", name: "ServiceCs", component: ServiceCs },
-          { path: "faq", component: ServiceFaq },
+          { path: "faq", name: "ServiceFaq", component: ServiceFaq },
         ],
       },
     ],

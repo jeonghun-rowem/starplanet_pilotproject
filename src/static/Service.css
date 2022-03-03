@@ -1,0 +1,29 @@
+.service_CsFaq_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 37px;
+}
+
+
+.CsFaq_btn{
+    width: 590px;
+    height: 75px;
+    background-color: gray;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.CsFaq_btn a{
+    color: #ffffff !important;
+    text-decoration: none; /* 링크의 밑줄을  제거 */
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.router-link-exact-active {
+    color: white;
+    background-color: blue;
+  }
+

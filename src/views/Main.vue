@@ -98,10 +98,8 @@
 </template>
 
 <script>
-// import HeaderBar from '@/components/HeaderBar';
 import ScrollUp from "@/components/ScrollUp.vue";
 import FooterBar from "@/components/FooterBar.vue";
-// import HeaderBarTest from '@/components/HeaderBarTest'
 
 export default {
   name: "MaIn",

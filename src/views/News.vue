@@ -1,22 +1,23 @@
 <template>
   <div>
-    news페이지
-    <!-- <HeaderBar /> -->
-    <TestHeader></TestHeader>
+    <div class="Ns_top">
+      <div class="Ns_top_div">
+        <div class="Ns_top_div_text1">NEWS</div>
+        <div class="Ns_top_div_text2"></div>
+        <p class="Ns_top_div_text3">스타 플래닛의 소식을 알려드립니다.</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// import HeaderBar from "@/components/HeaderBar.vue";
-import TestHeader from "@/components/TestHeader.vue";
-
 export default {
   name: "NeWs",
 
-  components: {
-    TestHeader,
-  },
+  components: {},
 };
 </script>
 
-<style></style>
+<style>
+@import "@/static/News_Service.css";
+</style>
