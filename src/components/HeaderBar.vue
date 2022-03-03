@@ -42,7 +42,9 @@
           </v-list-item>
 
           <v-list-item class="Header_list_group_text1">
-            <div>고객센터</div>
+            <div>
+              <router-link :to="{ name: 'ServiceCs' }">고객센터</router-link>
+            </div>
           </v-list-item>
 
           <v-list-item class="Header_list_group_text2">
