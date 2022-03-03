@@ -7,6 +7,7 @@
         <p class="Ns_top_div_text3">스타 플래닛의 소식을 알려드립니다.</p>
       </div>
     </div>
+    <div class="test"></div>
   </div>
 </template>
 
@@ -20,4 +21,7 @@ export default {
 
 <style>
 @import "@/static/News_Service.scss";
+.test {
+  height: 1000px;
+}
 </style>
