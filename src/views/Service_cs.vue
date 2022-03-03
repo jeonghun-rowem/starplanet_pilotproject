@@ -1,5 +1,5 @@
 <template>
-  <div>CS페이지</div>
+  <div></div>
 </template>
 
 <script>

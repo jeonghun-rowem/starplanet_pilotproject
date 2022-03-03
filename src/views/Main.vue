@@ -91,23 +91,12 @@
         </a>
       </div>
     </div>
-
-    <FooterBar />
-    <ScrollUp />
   </div>
 </template>
 
 <script>
-import ScrollUp from "@/components/ScrollUp.vue";
-import FooterBar from "@/components/FooterBar.vue";
-
 export default {
   name: "MaIn",
-
-  components: {
-    FooterBar,
-    ScrollUp,
-  },
 };
 </script>
 

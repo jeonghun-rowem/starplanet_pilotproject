@@ -1,5 +1,5 @@
 <template>
-  <div>Scrvice_faq페이지</div>
+  <div></div>
 </template>
 
 <script>
