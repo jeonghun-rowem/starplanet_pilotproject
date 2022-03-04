@@ -1,28 +1,35 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import MaIn from "@/views/Main.vue";
-import NeWs from "@/views/News.vue";
-import HeaderView from "@/layout/HeaderView.vue";
-import ServiceView from "@/layout/ServiceView.vue";
-import ServiceCs from "@/views/Service_cs.vue";
-import ServiceFaq from "@/views/Service_faq.vue";
 
 Vue.use(VueRouter);
 
 // 라우트 정보
+// Lazy Loading Routes
 const route = [
   {
     path: "",
-    component: HeaderView,
+    component: () => import("@/layout/HeaderView.vue"),
     children: [
-      { path: "", name: "Main", component: MaIn },
-      { path: "news", name: "News", component: NeWs },
+      { path: "", name: "Main", component: () => import("@/views/Main.vue") },
+      {
+        path: "news",
+        name: "News",
+        component: () => import("@/views/News.vue"),
+      },
       {
         path: "/service",
-        component: ServiceView,
+        component: () => import("@/layout/ServiceView.vue"),
         children: [
-          { path: "cs", name: "ServiceCs", component: ServiceCs },
-          { path: "faq", name: "ServiceFaq", component: ServiceFaq },
+          {
+            path: "cs",
+            name: "ServiceCs",
+            component: () => import("@/views/Service_cs.vue"),
+          },
+          {
+            path: "faq",
+            name: "ServiceFaq",
+            component: () => import("@/views/Service_faq.vue"),
+          },
         ],
       },
     ],

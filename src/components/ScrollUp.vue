@@ -1,5 +1,5 @@
 <template>
-  <div class="scrollup" @click="scrollup()" />
+  <div class="scrollup" @click="scrollup()"></div>
 </template>
 
 <script>
@@ -30,5 +30,7 @@ export default {
   z-index: 999;
   cursor: pointer;
   opacity: 60%;
+  background-image: url("@/assets/21.top_btn_arrow.svg");
+  background-position: center center;
 }
 </style>

@@ -27,18 +27,16 @@
 export default {
   name: "ServiceView",
 
-  data: () => ({
-    //
-  }),
+  data: () => ({}),
 };
 </script>
 
-// 지역변수로 설정
+// 지역 변수로 설정
 <style lang="scss" scoped>
 @import "@/static/News_Service.scss";
 @import "@/static/Service.scss";
 
 .service_CsFaq_btn > .router-link-exact-active {
-  background-color: rgb(255, 70, 131);
+  background-color: rgb(255 75 113);
 }
 </style>

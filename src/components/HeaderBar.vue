@@ -9,7 +9,7 @@
       dense
       class="Header_bar"
     >
-      <router-link to="/" class="Header_logo">
+      <router-link :to="{ name: 'Main' }" class="Header_logo">
         <img src="@/assets/3.star_planet_logo.png" />
       </router-link>
 
@@ -30,7 +30,7 @@
       <v-list nav dense>
         <v-list-item-group
           v-model="group"
-          active-class="deep-purple--text text--accent-4"
+          active-class="gray--text text--accent-4"
           class="Header_list_group"
         >
           <v-list-item class="Header_list_group_text1">
