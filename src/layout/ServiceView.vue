@@ -1,33 +1,36 @@
 <template>
   <div>
-    <div class="Ns_top">
-      <div class="Ns_top_div">
-        <div class="Ns_top_div_text1 Ns_top_div_text1_2">고객센터</div>
-        <div class="Ns_top_div_text2"></div>
-        <p class="Ns_top_div_text3">
-          안녕하세요. 스타 플래닛 고객님, 무엇을 도와드릴까요?
-        </p>
-      </div>
-    </div>
+    <NewsServiceBar :NsText1="NsText1" :NsText2="NsText2" />
 
     <div class="service_CsFaq_btn">
       <router-link :to="{ name: 'ServiceCs' }" class="CsFaq_btn"
         >1:1문의</router-link
       >
-
       <router-link :to="{ name: 'ServiceFaq' }" class="CsFaq_btn"
         >FAQ</router-link
       >
     </div>
-
+    <div class="test"></div>
     <router-view />
   </div>
 </template>
+
 <script>
+import NewsServiceBar from "@/components/News_ServiceBar.vue";
+
 export default {
   name: "ServiceView",
 
-  data: () => ({}),
+  data() {
+    return {
+      NsText1: "고객센터",
+      NsText2: "안녕하세요. 스타 플래닛 고객님, 무엇을 도와드릴까요?",
+    };
+  },
+
+  components: {
+    NewsServiceBar,
+  },
 };
 </script>
 

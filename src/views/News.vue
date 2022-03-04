@@ -1,21 +1,25 @@
 <template>
   <div>
-    <div class="Ns_top">
-      <div class="Ns_top_div">
-        <div class="Ns_top_div_text1">NEWS</div>
-        <div class="Ns_top_div_text2"></div>
-        <p class="Ns_top_div_text3">스타 플래닛의 소식을 알려드립니다.</p>
-      </div>
-    </div>
+    <NewsServiceBar :NsText1="NsText1" :NsText2="NsText2" />
+
     <div class="test"></div>
   </div>
 </template>
 
 <script>
+import NewsServiceBar from "@/components/News_ServiceBar.vue";
+
 export default {
   name: "NeWs",
 
-  components: {},
+  data() {
+    return {
+      NsText1: "NEWS",
+      NsText2: "스타 플래닛의 소식을 알려드립니다.",
+    };
+  },
+
+  components: { NewsServiceBar },
 };
 </script>
 
