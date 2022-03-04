@@ -37,6 +37,9 @@ const route = [
 ];
 
 // Vue 라우터 인스턴스 생성함
-const router = new VueRouter({ mode: "history", routes: route });
+const router = new VueRouter({
+  mode: "history",
+  routes: route,
+});
 
 export default router;
