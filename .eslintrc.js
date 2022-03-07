@@ -4,7 +4,8 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["plugin:vue/essential", "airbnb-base", "prettier"],
+  // vue/recommended 설정
+  extends: ["plugin:vue/recommended", "airbnb-base", "prettier"],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",

@@ -3,11 +3,11 @@
     <div class="Ns_top">
       <div class="Ns_top_div">
         <div class="Ns_top_div_text1">
-          {{ NsText1 }}
+          {{ nsText1 }}
         </div>
         <div class="Ns_top_div_text2"></div>
         <p class="Ns_top_div_text3">
-          {{ NsText2 }}
+          {{ nsText2 }}
         </p>
       </div>
     </div>
@@ -18,13 +18,20 @@
 export default {
   name: "NewsServiceBar",
 
-  data() {
-    return {};
+  // camelCase 사용
+  props: {
+    nsText1: {
+      type: String,
+      required: true,
+    },
+    nsText2: {
+      type: String,
+      required: true,
+    },
   },
 
-  props: {
-    NsText1: String,
-    NsText2: String,
+  data() {
+    return {};
   },
 };
 </script>

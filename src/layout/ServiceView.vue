@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NewsServiceBar :NsText1="NsText1" :NsText2="NsText2" />
+    <NewsServiceBar :ns-text1="NsText1" :ns-text2="NsText2" />
 
     <div class="service_CsFaq_btn">
       <router-link :to="{ name: 'ServiceCs' }" class="CsFaq_btn"
@@ -21,15 +21,15 @@ import NewsServiceBar from "@/components/News_ServiceBar.vue";
 export default {
   name: "ServiceView",
 
+  components: {
+    NewsServiceBar,
+  },
+
   data() {
     return {
       NsText1: "고객센터",
       NsText2: "안녕하세요. 스타 플래닛 고객님, 무엇을 도와드릴까요?",
     };
-  },
-
-  components: {
-    NewsServiceBar,
   },
 };
 </script>

@@ -29,10 +29,6 @@ export default {
     isMainPage() {
       return this.$route.name === "Main";
     },
-
-    // HeaderColor() {
-    //   return this.$route.name === "ServiceCs" || "ServiceFaq" || "NeWs";
-    // },
   },
 };
 </script>

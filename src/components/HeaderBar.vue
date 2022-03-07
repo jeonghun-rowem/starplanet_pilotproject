@@ -86,6 +86,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 @import "@/static/HeaderBar.scss";
+.v-list-item > div > .router-link-exact-active {
+  color: rgb(255 75 113);
+}
 </style>

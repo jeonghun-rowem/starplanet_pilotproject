@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NewsServiceBar :NsText1="NsText1" :NsText2="NsText2" />
+    <NewsServiceBar :ns-text1="NsText1" :ns-text2="NsText2" />
 
     <div class="test"></div>
   </div>
@@ -12,14 +12,14 @@ import NewsServiceBar from "@/components/News_ServiceBar.vue";
 export default {
   name: "NeWs",
 
+  components: { NewsServiceBar },
+
   data() {
     return {
       NsText1: "NEWS",
       NsText2: "스타 플래닛의 소식을 알려드립니다.",
     };
   },
-
-  components: { NewsServiceBar },
 };
 </script>
 
