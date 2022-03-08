@@ -17,7 +17,7 @@
               <td :style="{ color: 'gray' }">
                 {{ item.name }}
               </td>
-              <td>
+              <td :style="{ textAlign: 'left' }">
                 {{ item.calories }}
               </td>
               <td :style="{ color: 'gray' }">
@@ -53,17 +53,17 @@ export default {
         },
         {
           name: "2",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
+          calories: "	[공지] 스타패스 서비스 명칭 변경 안내",
           date: "2022-01-21 12:38:29",
         },
         {
           name: "3",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
+          calories: "[공지] 스타패스 이용약관 및 개인정보 처리방침 변경 안내",
           date: "2022-01-21 12:38:29",
         },
         {
           name: "4",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
+          calories: "	[공지] 스타패스 홈 새단장 기념 앱 리뷰 이벤트 당첨자 안내",
           date: "2022-01-21 12:38:29",
         },
         {
