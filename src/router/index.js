@@ -40,6 +40,14 @@ const route = [
 const router = new VueRouter({
   mode: "history",
   routes: route,
+
+  // 페이지 이동 시 스크롤 최상단으로 항상 고정
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    }
+    return { x: 0, y: 0 };
+  },
 });
 
 export default router;
