@@ -1,0 +1,34 @@
+
+.theme--light.v-data-table > .v-data-table__wrapper > table > thead > tr:last-child > th {
+    border-bottom: thin solid rgba(0, 0, 0, 0.12);
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.theme--light.v-data-table > .v-data-table__wrapper > table > tbody > tr> td:not(.v-data-table__mobile-row), .theme--light.v-data-table > .v-data-table__wrapper > table > tbody > tr:not(:last-child) > th:not(.v-data-table__mobile-row) {
+    border-bottom: thin solid rgba(0, 0, 0, 0.12);
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.v-data-table > .v-data-table__wrapper > table {
+    width: 100%;
+    border-spacing: 0;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+}
+
+tbody{
+    height: 700px;
+    border-top: 2px solid black;
+}
+
+thead{
+    border-bottom: 2px solid black;
+}
+
+.v-data-table tbody tr:not(:last-child) {
+    border-bottom: 2px solid #dfdfdf;
+}
