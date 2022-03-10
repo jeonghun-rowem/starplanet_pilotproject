@@ -10,7 +10,8 @@
     border-bottom: thin solid rgba(0, 0, 0, 0.12);
     font-size: 15px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 20px;
 }
 
 .v-data-table > .v-data-table__wrapper > table {
@@ -21,7 +22,6 @@
 }
 
 tbody{
-    height: 700px;
     border-top: 2px solid black;
     cursor: pointer;
 
@@ -35,6 +35,6 @@ thead{
     border-bottom: 2px solid #dfdfdf;
 }
 
-td:hover{
+td:nth-child(2):hover{
     color: #ff4b71!important
 }

@@ -13,15 +13,15 @@
             </tr>
           </thead>
           <tbody>
-            <tr v-for="item in Test" :key="item.name">
+            <tr v-for="(list, i) in testData" :key="i">
               <td :style="{ color: 'gray' }">
-                {{ item.name }}
+                {{ list.num }}
               </td>
               <td :style="{ textAlign: 'left' }">
-                {{ item.calories }}
+                {{ list.title }}
               </td>
               <td :style="{ color: 'gray' }">
-                {{ item.date }}
+                {{ list.date }}
               </td>
             </tr>
           </tbody>
@@ -32,6 +32,7 @@
 </template>
 
 <script>
+import axios from "axios";
 import NewsServiceBar from "@/components/News_ServiceBar.vue";
 
 export default {
@@ -44,60 +45,16 @@ export default {
       NsText1: "NEWS",
       NsText2: "스타 플래닛의 소식을 알려드립니다.",
 
-      // Test용 데이터
-      Test: [
-        {
-          name: "1",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
-          date: "2022-01-21 12:38:29",
-        },
-        {
-          name: "2",
-          calories: "	[공지] 스타패스 서비스 명칭 변경 안내",
-          date: "2022-01-21 12:38:29",
-        },
-        {
-          name: "3",
-          calories: "[공지] 스타패스 이용약관 및 개인정보 처리방침 변경 안내",
-          date: "2022-01-21 12:38:29",
-        },
-        {
-          name: "4",
-          calories: "	[공지] 스타패스 홈 새단장 기념 앱 리뷰 이벤트 당첨자 안내",
-          date: "2022-01-21 12:38:29",
-        },
-        {
-          name: "5",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
-          date: "2022-01-21 12:38:29",
-        },
-        {
-          name: "6",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
-          date: "2022-01-21 12:38:29",
-        },
-        {
-          name: "7",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
-          date: "2022-01-21 12:38:29",
-        },
-        {
-          name: "8",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
-          date: "2022-01-21 12:38:29",
-        },
-        {
-          name: "9",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
-          date: "2022-01-21 12:38:29",
-        },
-        {
-          name: "10",
-          calories: "[공지] 스타패스 ▶ 스타 플래닛 BI 변경 업데이트 안내",
-          date: "2022-01-21 12:38:29",
-        },
-      ],
+      testData: [],
     };
+  },
+
+  // Test용 데이터
+  mounted() {
+    axios.get("/Test.json").then((response) => {
+      console.log(response);
+      this.testData = response.data;
+    });
   },
 };
 </script>
