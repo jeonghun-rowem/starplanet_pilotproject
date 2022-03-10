@@ -3,11 +3,11 @@
     <div class="Ns_top">
       <div class="Ns_top_div">
         <div class="Ns_top_div_text1">
-          {{ nsText1 }}
+          {{ newsServiceText1 }}
         </div>
         <div class="Ns_top_div_text2"></div>
         <p class="Ns_top_div_text3">
-          {{ nsText2 }}
+          {{ newsServiceText2 }}
         </p>
       </div>
     </div>
@@ -20,11 +20,11 @@ export default {
 
   // camelCase 사용
   props: {
-    nsText1: {
+    newsServiceText1: {
       type: String,
       required: true,
     },
-    nsText2: {
+    newsServiceText2: {
       type: String,
       required: true,
     },

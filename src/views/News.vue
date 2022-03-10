@@ -1,6 +1,9 @@
 <template>
   <div>
-    <NewsServiceBar :ns-text1="NsText1" :ns-text2="NsText2" />
+    <NewsServiceBar
+      :news-service-text1="newsServiceText1"
+      :news-service-text2="newsServiceText2"
+    />
 
     <div class="news_table">
       <v-simple-table fixed-header height="1000px">
@@ -42,8 +45,8 @@ export default {
 
   data() {
     return {
-      NsText1: "NEWS",
-      NsText2: "스타 플래닛의 소식을 알려드립니다.",
+      newsServiceText1: "NEWS",
+      newsServiceText2: "스타 플래닛의 소식을 알려드립니다.",
 
       testData: [],
     };

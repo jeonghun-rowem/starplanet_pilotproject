@@ -1,3 +1,4 @@
+$data-table-border-radius: 0;
 
 .theme--light.v-data-table > .v-data-table__wrapper > table > thead > tr:last-child > th {
     border-bottom: thin solid rgba(0, 0, 0, 0.12);
@@ -25,6 +26,8 @@ tbody{
     border-top: 2px solid black;
     cursor: pointer;
 }
+
+
 
 thead{
     border-bottom: 2px solid black;

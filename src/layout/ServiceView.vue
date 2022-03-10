@@ -1,6 +1,9 @@
 <template>
   <div>
-    <NewsServiceBar :ns-text1="NsText1" :ns-text2="NsText2" />
+    <NewsServiceBar
+      :news-service-text1="newsServiceText1"
+      :news-service-text2="newsServiceText2"
+    />
 
     <div class="service_CsFaq_btn">
       <router-link :to="{ name: 'ServiceCs' }" class="CsFaq_btn"
@@ -27,8 +30,8 @@ export default {
 
   data() {
     return {
-      NsText1: "고객센터",
-      NsText2: "안녕하세요. 스타 플래닛 고객님, 무엇을 도와드릴까요?",
+      newsServiceText1: "고객센터",
+      newsServiceText2: "안녕하세요. 스타 플래닛 고객님, 무엇을 도와드릴까요?",
     };
   },
 };
