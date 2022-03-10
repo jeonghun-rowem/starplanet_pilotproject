@@ -7,7 +7,7 @@ export default {
   name: "ScrollUp",
 
   methods: {
-    // 스크롤 위치 최상단으로 보내기 behavior: "smooth"를 사용한 부드러운 이동
+    // 스크롤 위치 최상단으로 보내기 behavior: "smooth"를 사용한 부드러운 이동...
     scrollup() {
       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     },
