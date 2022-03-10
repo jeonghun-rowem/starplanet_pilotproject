@@ -24,7 +24,6 @@
 tbody{
     border-top: 2px solid black;
     cursor: pointer;
-
 }
 
 thead{
@@ -34,6 +33,7 @@ thead{
 .v-data-table tbody tr:not(:last-child) {
     border-bottom: 2px solid #dfdfdf;
 }
+
 
 td:nth-child(2):hover{
     color: #ff4b71!important

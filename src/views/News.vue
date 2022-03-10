@@ -49,7 +49,7 @@ export default {
     };
   },
 
-  // Test용 데이터
+  // ..Test용 데이터
   mounted() {
     axios.get("/Test.json").then((response) => {
       console.log(response);
