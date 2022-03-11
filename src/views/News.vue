@@ -18,13 +18,13 @@
           <tbody>
             <tr v-for="(list, i) in testData" :key="i">
               <td :style="{ color: 'gray' }">
-                {{ list.num }}
+                {{ list.seq }}
               </td>
               <td :style="{ textAlign: 'left' }">
-                {{ list.title }}
+                {{ list.board_title }}
               </td>
               <td :style="{ color: 'gray' }">
-                {{ list.date }}
+                {{ list.upd_dt }}
               </td>
             </tr>
           </tbody>
@@ -47,17 +47,33 @@ export default {
     return {
       newsServiceText1: "NEWS",
       newsServiceText2: "스타 플래닛의 소식을 알려드립니다.",
-
       testData: [],
     };
   },
 
-  // ..Test용 데이터
   mounted() {
-    axios.get("/Test.json").then((response) => {
-      console.log(response);
-      this.testData = response.data;
-    });
+    // postmen Documentation -> Request Headers참고하여 header 생성..
+    const headers = {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+      "Accept-Language": "en",
+    };
+    axios
+      .post(
+        "https://apitest.starpass.co.kr/board/getBoardList",
+        {
+          page: 3,
+          row: 10,
+          board_type: "1",
+        },
+        { headers }
+      )
+      .then((response) => {
+        console.log("test");
+        console.log(response.data.result.list);
+        // 데이터 경로 담기..
+        this.testData = response.data.result.list;
+      });
   },
 };
 </script>
